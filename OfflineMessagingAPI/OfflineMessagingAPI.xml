@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OfflineMessagingAPI</name>
+    </assembly>
+    <members>
+        <member name="M:OfflineMessagingAPI.Controllers.BlocksController.BlockUser(OfflineMessagingAPI.Entities.Helpers.BlockUserHelper)">
+            <summary>
+            Block user by username 
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OfflineMessagingAPI.Controllers.MessagesController.Send(OfflineMessagingAPI.Entities.Helpers.SendMessageHelper)">
+            <summary>
+            Send message to another user with username
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OfflineMessagingAPI.Controllers.MessagesController.GetMessagesHistory(System.Int32,System.String)">
+            <summary>
+            Get message history between two users in order from latest to oldest
+            </summary>
+            <param name="id"></param>
+            <param name="fromUserName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OfflineMessagingAPI.Controllers.UsersController.Register(OfflineMessagingAPI.Entities.Helpers.RegisterHelper)">
+            <summary>
+            User Register
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OfflineMessagingAPI.Controllers.UsersController.Login(OfflineMessagingAPI.Entities.Helpers.LoginHelper)">
+            <summary>
+            Login User
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
